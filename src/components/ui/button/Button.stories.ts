@@ -22,7 +22,7 @@ const meta = {
   // },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
-  title: 'ui_kit/Button',
+  title: 'ui_kit/button',
 } satisfies Meta<typeof Button>
 
 export default meta
@@ -31,21 +31,32 @@ type Story = StoryObj<typeof meta>
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {
   args: {
-    children: 'Some Primary Button',
+    as: 'button',
+    children: 'Some Primary button',
+    variant: 'primary',
+  },
+}
+
+export const Primary_with_Link: Story = {
+  args: {
+    as: 'a',
+    children: 'Some Link as button',
     variant: 'primary',
   },
 }
 
 export const Secondary: Story = {
   args: {
-    children: 'Some Primary Button',
+    as: 'button',
+    children: 'Some Primary button',
     variant: 'secondary',
   },
 }
 
 export const Large: Story = {
   args: {
-    children: 'Some Large Button',
+    as: 'button',
+    children: 'Some Large button',
     fullWidth: true,
   },
 }

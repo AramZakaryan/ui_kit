@@ -1,0 +1,97 @@
+.typography {
+  font-family: var(--font-family-primary);
+}
+
+.H1,
+.H2,
+.H3,
+.H4,
+.Overline,
+.Subtitle1,
+.Subtitle2 {
+  font-weight: var(--font-weight-bold);
+}
+
+.Body1,
+.Body2,
+.Caption,
+.Link1,
+.Link2 {
+  font-weight: var(--font-weight-regular);
+}
+
+.H1,
+.H2 {
+  line-height: var(--line-height-l);
+}
+
+.H3,
+.H4,
+.Body1,
+.Body2,
+.Link1,
+.Subtitle1,
+.Subtitle2 {
+  line-height: var(--line-height-m);
+}
+
+.Caption,
+.Link2,
+.Overline {
+  line-height: var(--line-height-s);
+}
+
+.H1 {
+  font-size: var(--font-size-xxl);
+}
+
+.H2 {
+  font-size: var(--font-size-xl);
+}
+
+.H3 {
+  font-size: var(--font-size-l);
+}
+
+.H4 {
+  font-size: var(--font-size-m);
+}
+
+.Body1 {
+  font-size: var(--font-size-m);
+}
+
+.Body2 {
+  font-size: var(--font-size-s);
+}
+
+.Caption {
+  font-size: var(--font-size-xs);
+}
+
+.Link1,
+.Link2 {
+  color: var(--color-accent-500);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Link1 {
+  font-size: var(--font-size-s);
+}
+
+.Link2 {
+  font-size: var(--font-size-xs);
+}
+
+.Overline {
+  font-size: var(--font-size-xs);
+}
+
+.Subtitle1 {
+  font-size: var(--font-size-m);
+}
+
+.Subtitle2 {
+  font-size: var(--font-size-s);
+}
